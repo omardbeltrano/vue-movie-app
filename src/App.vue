@@ -1,13 +1,17 @@
 <template>
   <header>
     <router-link to="/">
-      <h1><span>Vue</span>Movies</h1>
+      <h1><span>Vue</span>Movies<span>Channel</span></h1>
     </router-link>
   </header>
   <router-view/>
 </template>
 
 <style lang="scss">
+:root{
+  
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -15,7 +19,7 @@
   font-family: 'Fira sans', sans-serif;
 
   &::selection{
-    background: transparentize($color: #42BBB3, $amount: 0.5);
+    background: transparentize($color: #42B883, $amount: 0.5);
   }
 }
 
@@ -40,7 +44,7 @@ header{
     font-size: 28px;
 
     span{
-      color: #42BBB3;
+      color: #42B883;
     }
   }
 }
